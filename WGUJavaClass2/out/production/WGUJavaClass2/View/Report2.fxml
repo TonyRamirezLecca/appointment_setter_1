@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="284.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Report2Controller">
+    <children>
+        <Button layoutX="512.0" layoutY="233.0" mnemonicParsing="false" onAction="#backHandler" text="Back" />
+        <Label layoutX="41.0" layoutY="57.0" text="Jonathon Roberts" />
+        <Label layoutX="179.0" layoutY="57.0" text="Rachel Summers" />
+        <Label layoutX="323.0" layoutY="57.0" text="Marco Cortez" />
+        <Label fx:id="jonathon" layoutX="71.0" layoutY="113.0" text="0">
+            <font>
+                <Font size="30.0" />
+            </font>
+        </Label>
+        <Label fx:id="rachel" layoutX="206.0" layoutY="113.0" text="0">
+            <font>
+                <Font size="30.0" />
+            </font>
+        </Label>
+        <Label fx:id="sammy" layoutX="475.0" layoutY="113.0" text="0">
+            <font>
+                <Font size="30.0" />
+            </font>
+        </Label>
+      <Label layoutX="453.0" layoutY="57.0" text="Sammy Ten" />
+      <Label fx:id="marco" layoutX="342.0" layoutY="113.0" text="0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

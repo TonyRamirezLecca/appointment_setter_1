@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="284.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Report1Controller">
+   <children>
+      <Button layoutX="512.0" layoutY="233.0" mnemonicParsing="false" onAction="#backHandler" text="Back" />
+      <Label layoutX="72.0" layoutY="55.0" text="Family Counseling" />
+      <Label layoutX="246.0" layoutY="55.0" text="Personal Counseling" />
+      <Label layoutX="434.0" layoutY="55.0" text="Marriage Counseling" />
+      <Label fx:id="family" layoutX="107.0" layoutY="113.0" text="0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="personal" layoutX="286.0" layoutY="113.0" text="0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="marriage" layoutX="475.0" layoutY="113.0" text="0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
